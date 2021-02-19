@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@media(max-width: 1200px){
+    .body{
+        max-width: 970px;
+    }
+}
+@media(max-width: 992px){
+    .body{
+        max-width: 750px;
+    }
+}
+@media(max-width: 767px){
+    .body{
+        max-width: 750px;
+    }
+}
+.navbar img{
+    margin-left: 150px;
+    margin-top: 21px;
+    width: 79px;
+    height: 27px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+.menu{
+    margin-top: 21px;
+    margin-bottom: 23px;
+    margin-right: 150px;
+}
+.menu a{
+    color: #9a9a9a;
+    font-size: 14px;
+    margin-left: 48px;
+    text-decoration: none;
+}
+.header-panel{
+    background-color: #9a9a9a;
+
+}
+.header-panel h1{
+    opacity: 0.22;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 33px;
+    font-weight: 400;
+    padding-top: 59px;
+    text-align: center;
+    
+}
+.info{
+    width: 550px;
+    height: 406px;
+    margin-top: 109px;
+    margin-left: 150px;
+    margin-right: 0px;
+    padding-bottom: 140px;
+}
+.info img{
+    margin-bottom: 33px;
+}
+.info h2{
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+}
+.info hr{
+    width: 74px;
+    margin-top: 36px;
+    margin-bottom: 30px;
+    border: #ffffff solid 1px;
+
+}
+.info p{
+    opacity: 0.8;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 44px;
+}
+.info button{
+    width: 135px;
+    height: 42px;
+    margin-left: 1px;
+    background-color: #9a9a9a;
+    color: white;
+    border-color: white;
+    transition: ease-in 0.25s all;
+    
+    
+}
+.info button:hover{
+    background-color: black;
+    border-color: #9a9a9a;
+}
+.brand-bar{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 3px 2px 4px #DEDEDE;
+}
+.icon img{
+    width: 39px;
+    margin-left: 40px;
+}
+.icon{
+    margin-top: 25px;
+    margin-right: 152px;
+}
+.text-bar{
+    margin-top: 23px;
+    margin-left: 152px;
+    margin-bottom: 22px;
+}
+.text-bar h1{
+    color: #333333;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+}
+.text-bar p{
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+}
+.future-1{
+    margin-top: 4px;
+    display: flex;
+    background-color: #F5F5F5;
+    justify-content: space-between;
+}
+.tabs button{
+    height: 112px;
+    width: 112px;
+    border-radius: 7px;
+    background-color: #333333;
+    color: white;
+    transition: ease-in 0.25s all;
+}
+.tabs button:hover{
+    background-color: #FF8B38;
+    border-color: #FF8B38;
+}
+.tabs{
+    margin-top: 148px;
+    margin-left: 142px;
+    margin-bottom: 114px;
+    display: inline-flex;
+    flex-direction: column;
+}
+.fut-text{
+    margin-top: 156px;
+    margin-bottom: 138px;
+}
+.fut-text h1{
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 52px;
+}
+.fut-text p{
+    color: #86878b;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    margin-bottom: 51px;
+}
+.fut-text button{
+    width: 121px;
+    height: 46px;
+    background-color: #000000;
+    color: white;
+    transition: ease-in 0.25s all;
+}
+.fut-text button:hover{
+    background-color:  #FF8B38;
+}
+.future-1 img{
+    width: 320px;
+    height: 253px;
+    margin-top: 172px;
+    margin-right: 148px;
+}
